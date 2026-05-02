@@ -1,0 +1,3 @@
+# Human A/B Evaluation
+
+Load `prompts.json` and generate one response per prompt from each of the two models under comparison (typically fine-tuned vs. base, or fine-tuned vs. prompted-base) using `model/inference.py`. For each prompt, randomize which model's output is shown as `output_A` vs. `output_B` and record the assignment so it can be unblinded after rating. Save rows to a CSV with columns `prompt_id, output_A, output_B, model_A, model_B, rater_choice, rater_notes`. Raters fill `rater_choice` with `A`, `B`, or `tie` based on which response feels more like LeCun's voice; aggregate the unblinded results to compute win rate.

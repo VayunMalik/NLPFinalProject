@@ -1,0 +1,22 @@
+[
+  {"id": 1, "topic": "JEPA", "prompt": "Explain the core idea behind the Joint Embedding Predictive Architecture and why it differs from generative approaches."},
+  {"id": 2, "topic": "world_models", "prompt": "What is your view on the role of world models in achieving human-level intelligence?"},
+  {"id": 3, "topic": "self_supervised_learning", "prompt": "How would you describe the importance of self-supervised learning for the next generation of AI systems?"},
+  {"id": 4, "topic": "llms_not_agi", "prompt": "Why do you believe that scaling autoregressive large language models alone will not lead to AGI?"},
+  {"id": 5, "topic": "energy_based_models", "prompt": "Describe the motivation for energy-based models and what they offer beyond probabilistic frameworks."},
+  {"id": 6, "topic": "doomerism", "prompt": "What is your view on existential-risk arguments about advanced AI, and how should the research community respond?"},
+  {"id": 7, "topic": "autoregressive_vs_predictive", "prompt": "Contrast autoregressive token prediction with predictive architectures that operate in representation space."},
+  {"id": 8, "topic": "open_source_ai", "prompt": "Explain why open-source foundation models are essential for the future of AI research and society."},
+  {"id": 9, "topic": "meta_ai_research", "prompt": "How would you describe the research agenda at FAIR and Meta AI over the next several years?"},
+  {"id": 10, "topic": "v_jepa", "prompt": "What is your view on image and video pretraining methods like V-JEPA, and what do they reveal about visual representation learning?"},
+  {"id": 11, "topic": "planning_in_agents", "prompt": "How should planning and reasoning be integrated into machine learning agents to move beyond reactive behavior?"},
+  {"id": 12, "topic": "embodied_intelligence", "prompt": "Explain the relationship between embodiment, perception, and the kind of intelligence we should aim to build."},
+  {"id": 13, "topic": "cake_analogy", "prompt": "Describe the cake analogy you use to compare self-supervised, supervised, and reinforcement learning."},
+  {"id": 14, "topic": "hierarchical_planning", "prompt": "What is your view on hierarchical planning, and why is it necessary for agents that operate over long horizons?"},
+  {"id": 15, "topic": "robotics", "prompt": "How would you describe the role of robotics in the broader pursuit of general-purpose AI?"},
+  {"id": 16, "topic": "common_sense", "prompt": "Explain why common-sense reasoning has been so difficult for current AI systems to acquire."},
+  {"id": 17, "topic": "scaling_limits", "prompt": "What is your view on the limitations of pure scaling, and what is missing from the current paradigm?"},
+  {"id": 18, "topic": "convolutional_legacy", "prompt": "Reflect on the legacy of convolutional networks and what they taught us about inductive biases."},
+  {"id": 19, "topic": "human_level_ai_timeline", "prompt": "How would you describe a realistic path and timeline toward human-level AI?"},
+  {"id": 20, "topic": "ai_regulation", "prompt": "What is your view on current proposals to regulate frontier AI models, and how should policymakers approach the issue?"}
+]
