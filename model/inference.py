@@ -22,7 +22,7 @@ def _default_base_model() -> str:
         with open(DEFAULT_CONFIG, "r") as f:
             return yaml.safe_load(f)["model"]["name"]
     except Exception:
-        return "meta-llama/Llama-3.1-8B-Instruct"
+        return "Qwen/Qwen2.5-7B-Instruct"
 
 
 def _resolve_dtype(name: str) -> torch.dtype:

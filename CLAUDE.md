@@ -19,8 +19,8 @@ LLMs surface-imitate expert tone but the depth of replication is unclear. By fin
 ## System Architecture
 
 ### Base Model
-- **Llama 3.1 8B Instruct** (open-source, pre-trained)
-- Chosen so effort concentrates on fine-tuning rather than pretraining
+- **Qwen 2.5 7B Instruct** (open-source, MIT license, no gated access required)
+- Chosen so effort concentrates on fine-tuning rather than pretraining; switched from Llama 3.1 8B due to Meta's gated access requirement
 
 ### Fine-Tuning Approach
 - **Supervised Fine-Tuning (SFT)** with **LoRA adapters** for parameter-efficient training

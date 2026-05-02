@@ -10,6 +10,13 @@ Append-only log. Each entry: date, area, decision, rationale.
 - Added `utils/seed.py` for centralized seeding (torch, numpy, random, PYTHONHASHSEED).
 - Pinned versions in `requirements.txt`. `transformers==4.45.2`, `peft==0.13.2`, `trl==0.11.4` chosen because they jointly support Llama 3.1 chat templates and `SFTTrainer` packing.
 
+## 2026-05-02 — Base model swap: Llama 3.1 → Qwen 2.5
+
+- Switched base model from `meta-llama/Llama-3.1-8B-Instruct` to `Qwen/Qwen2.5-7B-Instruct`.
+- Rationale: Meta's Llama 3.1 requires explicit access approval on Hugging Face; Qwen 2.5 7B Instruct is MIT-licensed with no gating, similar parameter count (~7B vs 8B), and comparable benchmark performance.
+- No code changes required beyond the model name: LoRA target modules (`q_proj`, `k_proj`, `v_proj`, `o_proj`) are identical; `transformers==4.45.2` already supports Qwen2.5; Qwen's chat template is baked into the tokenizer config so `apply_chat_template` works unchanged.
+- `requirements.txt` versions unchanged.
+
 ## 2026-05-02 — Base model and training
 
 - Base model: `meta-llama/Llama-3.1-8B-Instruct`. Per CLAUDE.md.
