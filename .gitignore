@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+
+# Editor
+.idea/
+.vscode/
+
+# Project artifacts
+model/adapters/*/
+!model/adapters/.gitkeep
+runs/
+wandb/
+*.log
+
+# Tokenized / cached datasets (regenerate from data/raw + data/scripts)
+data/processed/*.jsonl
+data/processed/*.arrow
+data/processed/cache/
+
+# Don't commit large model weights
+*.bin
+*.safetensors
+*.pt
+*.ckpt
+
+# Local secrets
+.env
+.env.local
